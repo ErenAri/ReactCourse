@@ -6,6 +6,7 @@
     "@testing-library/jest-dom": "^5.11.10",
     "@testing-library/react": "^11.2.6",
     "@testing-library/user-event": "^12.8.3",
+    "alertifyjs": "^1.13.1",
     "boostrap": "^2.0.0",
     "bootstrap": "^4.6.0",
     "react": "^17.0.2",
