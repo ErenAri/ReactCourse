@@ -26,7 +26,9 @@ export class CartSummary extends Component {
           ))}
           <DropdownItem>Option 2</DropdownItem>
           <DropdownItem divider />
-          <DropdownItem>Reset</DropdownItem>
+          <DropdownItem>
+            <Link to="cart">Go to Cart</Link>
+          </DropdownItem>
         </DropdownMenu>
       </UncontrolledDropdown>
     );

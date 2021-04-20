@@ -4,6 +4,9 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'alertifyjs/build/css/alertify.min.css';
+import {BrowserRouter} from 'react-router-dom';
+
+ReactDOM.render(<BrowserRouter><App/></BrowserRouter>,document.getElementById('root'));
 
 ReactDOM.render(
   <React.StrictMode>
